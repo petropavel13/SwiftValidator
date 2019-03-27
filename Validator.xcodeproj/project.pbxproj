@@ -93,7 +93,7 @@
 
 /* Begin PBXFileReference section */
 		62C1821C1C6312F5003788E7 /* ExactLengthRule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExactLengthRule.swift; sourceTree = "<group>"; };
-		62D1AE171A1E6D4400E4DFF8 /* Validator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Validator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D1AE171A1E6D4400E4DFF8 /* ValidatorExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValidatorExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D1AE1B1A1E6D4400E4DFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		62D1AE1C1A1E6D4400E4DFF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		62D1AE1E1A1E6D4400E4DFF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -184,7 +184,7 @@
 		62D1AE181A1E6D4400E4DFF8 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				62D1AE171A1E6D4400E4DFF8 /* Validator.app */,
+				62D1AE171A1E6D4400E4DFF8 /* ValidatorExample.app */,
 				62D1AE2C1A1E6D4500E4DFF8 /* ValidatorTests.xctest */,
 				FB465CB31B9884F400398388 /* SwiftValidator.framework */,
 				FB465CBD1B9884F400398388 /* SwiftValidatorTests.xctest */,
@@ -320,9 +320,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		62D1AE161A1E6D4400E4DFF8 /* Validator */ = {
+		62D1AE161A1E6D4400E4DFF8 /* ValidatorExample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 62D1AE361A1E6D4500E4DFF8 /* Build configuration list for PBXNativeTarget "Validator" */;
+			buildConfigurationList = 62D1AE361A1E6D4500E4DFF8 /* Build configuration list for PBXNativeTarget "ValidatorExample" */;
 			buildPhases = (
 				62D1AE131A1E6D4400E4DFF8 /* Sources */,
 				62D1AE141A1E6D4400E4DFF8 /* Frameworks */,
@@ -334,9 +334,9 @@
 			dependencies = (
 				FB465CC91B9884F400398388 /* PBXTargetDependency */,
 			);
-			name = Validator;
+			name = ValidatorExample;
 			productName = Validator;
-			productReference = 62D1AE171A1E6D4400E4DFF8 /* Validator.app */;
+			productReference = 62D1AE171A1E6D4400E4DFF8 /* ValidatorExample.app */;
 			productType = "com.apple.product-type.application";
 		};
 		62D1AE2B1A1E6D4500E4DFF8 /* ValidatorTests */ = {
@@ -438,7 +438,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				62D1AE161A1E6D4400E4DFF8 /* Validator */,
+				62D1AE161A1E6D4400E4DFF8 /* ValidatorExample */,
 				62D1AE2B1A1E6D4500E4DFF8 /* ValidatorTests */,
 				FB465CB21B9884F400398388 /* SwiftValidator */,
 				FB465CBC1B9884F400398388 /* SwiftValidatorTests */,
@@ -544,7 +544,7 @@
 /* Begin PBXTargetDependency section */
 		62D1AE2E1A1E6D4500E4DFF8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 62D1AE161A1E6D4400E4DFF8 /* Validator */;
+			target = 62D1AE161A1E6D4400E4DFF8 /* ValidatorExample */;
 			targetProxy = 62D1AE2D1A1E6D4500E4DFF8 /* PBXContainerItemProxy */;
 		};
 		FB465CC01B9884F400398388 /* PBXTargetDependency */ = {
@@ -554,7 +554,7 @@
 		};
 		FB465CC21B9884F400398388 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 62D1AE161A1E6D4400E4DFF8 /* Validator */;
+			target = 62D1AE161A1E6D4400E4DFF8 /* ValidatorExample */;
 			targetProxy = FB465CC11B9884F400398388 /* PBXContainerItemProxy */;
 		};
 		FB465CC91B9884F400398388 /* PBXTargetDependency */ = {
@@ -848,7 +848,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		62D1AE361A1E6D4500E4DFF8 /* Build configuration list for PBXNativeTarget "Validator" */ = {
+		62D1AE361A1E6D4500E4DFF8 /* Build configuration list for PBXNativeTarget "ValidatorExample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				62D1AE371A1E6D4500E4DFF8 /* Debug */,
